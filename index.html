@@ -68,6 +68,16 @@
       .otherlinks {
         font-size: 80%;
       }
+      @media (max-width: 768px) {
+        nav a,
+        nav details {
+          font-size: 70%;
+        }
+        main {
+          margin-right: 2%;
+          padding:2%;
+        }
+      }
     </style>
   </head>
   <body>
@@ -125,7 +135,7 @@
       </details>
     </nav>
     <h1>Welcome to 480Aero</h1>
-    <main id="mainthing">
+    <main>
       <p>
         Hi, I am 480Aero, 15 year old that does stuff whenever I feel like it.
         Feel free to look around.
@@ -162,7 +172,7 @@
           alt="Friday Night Funkin'"
         />
         <img
-          src="https://static.wikia.nocookie.net/fridaynightfunking/images/7/72/Logo-layer.png/revision/latest/scale-to-width-down/268?cb=20250831175234"
+          src="images/dnb.png"
           alt="Dave and Bambi"
         />
         <img
@@ -217,10 +227,5 @@
         <li>Straight</li>
       </ul>
     </main>
-    <script>
-      if (window.matchMedia("(max-width: 767px)").matches) {
-        document.getElementById("mainthing").style.paddingRight = "2%";
-      }
-    </script>
   </body>
 </html>
